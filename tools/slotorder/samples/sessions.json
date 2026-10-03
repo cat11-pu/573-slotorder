@@ -1,0 +1,19 @@
+{
+  "sessions": [
+    {"id":"a","arrive":0,"dial":"ok","dialMs":5,"holdMs":10},
+    {"id":"b","arrive":0,"dial":"ok","dialMs":5,"holdMs":10},
+    {"id":"c","arrive":2,"dial":"refused","dialMs":1,"holdMs":0},
+    {"id":"d","arrive":3,"dial":"ok","dialMs":2,"holdMs":1},
+    {"id":"","arrive":4,"dial":"ok","dialMs":1,"holdMs":1},
+    {"id":"e","arrive":16,"dial":"ok","dialMs":1,"holdMs":4},
+    {"id":"f","arrive":16,"dial":"timeout","dialMs":3,"holdMs":0},
+    {"id":"a","arrive":7,"dial":"ok","dialMs":1,"holdMs":1},
+    {"id":"g","arrive":16,"dial":"ok","dialMs":1,"holdMs":2},
+    {"id":"h","arrive":30,"dial":"ok","dialMs":2,"holdMs":2},
+    {"id":"i3","arrive":-1,"dial":"ok","dialMs":0,"holdMs":0},
+    {"id":"i4","arrive":1,"dial":"bogus","dialMs":0,"holdMs":0},
+    {"id":"i5","arrive":1,"dial":"ok","dialMs":-2,"holdMs":0},
+    {"id":"i6","arrive":1,"dial":"ok","dialMs":0,"holdMs":-3},
+    {"id":"i7","arrive":-5,"dial":"bogus","dialMs":-1,"holdMs":-1}
+  ]
+}
